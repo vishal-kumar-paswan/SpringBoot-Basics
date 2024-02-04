@@ -9,6 +9,7 @@ public class SpringBootDemoApplication {
 
 	public static void main(String[] args) {
 		// First we are creating a context of the ApplicationContext
+		// Using context gives us the access to the Spring container
 		ApplicationContext context = SpringApplication.run(SpringBootDemoApplication.class, args);
 
 		// Then we are using that instance to get the bean of Student class,
